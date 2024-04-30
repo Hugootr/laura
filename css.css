@@ -158,4 +158,5 @@ section {
 .texto-centrado p {
     margin: 0;
     font-size: 1.5em; 
+    margin-top: 2%;
 }
