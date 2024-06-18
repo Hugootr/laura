@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería</title>
     <link rel="stylesheet" href="css.css">
+    <style>
+        .texto-centrado {
+            text-align: center;
+        }
+
+        .imagen-centrada {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px; 
+        }
+
+        .texto-imagen {
+            text-align: justify;
+            padding: 0 10%; 
+        }
+    </style>
 </head>
 <body>
     <div class="borde-amarillo borde-izquierdo"></div>
@@ -37,11 +55,30 @@
     </header>
 
     <div class="texto-centrado">
-        <p>Momentos</p>
+        <p>Esta parte de la página la considero la más importante, ya que es donde contaremos todo aquello que nos pase, donde añadiremos fotos con su significado, días inolvidables y cualquier momento que queramos tener guardado.</p>
+        
+        <div class="contenedor-imagenes">
+            <div class="contenedor-imagen">
+                <img src="flores.PNG" alt="Imagen 1">
+            </div>
+            <div class="contenedor-imagen">
+                <img src="foto1.jpeg" alt="Imagen 2">
+            </div>
+            <div class="contenedor-imagen">
+                <img src="foto2.jpeg" alt="Imagen 3">
+            </div>
+        </div>
+        <p class="contenedor-imagen-textos">el mejor día de nuestra relación, la niña más guapa del mundo abrazada a sus flores, que feliz me hace la foto.</p>
     </div>
 
-    <footer>
-        <p>&copy; 2024 Galería</p>
-    </footer>
+    <div class="texto-centrado">
+        <div class="contenedor-imagenes">
+            <div class="contenedor-imagen">
+                <img src="pepitogrillo33.PNG" alt="Imagen 4">
+            </div>
+        </div>
+        <p class="contenedor-imagen-textos">pa lo que me queda en el convento me cago dentro (fuimos a la playa y no nos acrodamos de mas cervezacervezacervezacervezacervezacervezacervezacervezacervezacervezacervezacerveza)</p>
+    </div>
+    
 </body>
 </html>
